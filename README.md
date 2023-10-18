@@ -1,6 +1,6 @@
 # Semantic Release Github Action
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/90dy/gha-semantic-release/semantic-release.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/90dy/gha-semantic-release/semantic-release.yml)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/90dy/gha-semantic-release)
 
 This GitHub Action allows you to run [semantic-release](https://semantic-release.gitbook.io/semantic-release/) with the same options as the command-line interface (CLI) in your GitHub Actions workflow. Semantic Release automates the versioning and release process of your software projects.
