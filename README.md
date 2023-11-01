@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Semantic Release
         uses: 90dy/gha-semantic-release@v1
