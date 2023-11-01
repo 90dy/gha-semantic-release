@@ -40,6 +40,7 @@ jobs:
           plugins: | # List of plugins to use
             @semantic-release/commit-analyzer
             @semantic-release/release-notes-generator
+            @semantic-release/changelog
             @semantic-release/github
             @semantic-release/git
           dry-run: 'false' # Enable or disable dry-run mode
