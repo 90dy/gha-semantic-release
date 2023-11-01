@@ -86,14 +86,15 @@ runs:
       shell: bash
       if: ${{ inputs.plugins }}
       run: |
-        echo "${{ inputs.plugins }}" | xargs npm install --no-save
+        echo "${{ inputs.plugins }}" | xargs npm install -g semantic-release
 
     - name: Release
       shell: bash
       run: |
         # expands variables before printing
         set -o xtrace
-        npx semantic-release \
+
+        semantic-release \
           $([ -z "${{ inputs.extends }}" ] || echo "${{ inputs.extends }}" | xargs echo | sed 's [[:space:]] , g' | xargs echo "--extends") \
           $([ -z "${{ inputs.branches }}" ] || echo "${{ inputs.branches }}" | xargs echo | sed 's [[:space:]] , g' | xargs echo "--branches") \
           $([ -z "${{ inputs.repository-url }}" ] || echo "${{ inputs.repository-url }}" | xargs echo | sed 's [[:space:]] , g' | xargs echo "--repository-url") \
