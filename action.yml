@@ -1,5 +1,5 @@
 name: Semantic Release Github Action from 90dy
-author: 90dy <90dy@proton.me>
+author: 90dy <forward@90dy.ltd>
 description: Run semantic-release in github action with same options as cli
 icon: git-merge
 
