@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/90dy/gha-semantic-release/compare/v1.0.3...v1.0.4) (2023-11-07)
+
+
+### Bug Fixes
+
+* change user email ([92a42f6](https://github.com/90dy/gha-semantic-release/commit/92a42f68668e26d9e0aae285b6f4afe04d5661c5))
+
 ## [1.0.3](https://github.com/90dy/gha-semantic-release/compare/v1.0.2...v1.0.3) (2023-11-07)
 
 
