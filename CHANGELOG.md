@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/90dy/gha-semantic-release/compare/v1.0.2...v1.0.3) (2023-11-07)
+
+
+### Bug Fixes
+
+* don't skip ci check ([a9fcdd0](https://github.com/90dy/gha-semantic-release/commit/a9fcdd0791bfa5116cb675c3a9633cfc931c6fc6))
+
 ## [1.0.2](https://github.com/90dy/gha-semantic-release/compare/v1.0.1...v1.0.2) (2023-11-01)
 
 
