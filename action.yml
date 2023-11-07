@@ -63,6 +63,7 @@ inputs:
       Note: The Dry-run mode verifies the repository push permission, even though nothing will be pushed. The verification is done to help user to figure out potential configuration issues.
 
   ci:
+    default: 'true'
     description: |
       Type: Boolean
       Default: true
